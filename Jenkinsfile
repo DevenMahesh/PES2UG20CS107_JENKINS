@@ -5,7 +5,7 @@ stages{
   stage('Build') {
     steps{
       
-      sh 'g++ -o deven deven.cpp'
+      sh 'g++ -o deven simple.cpp'
     }
   }
 
